@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Styling navbar */
+nav {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul .logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* styling the grids */
+.grid {
+  display: grid;
+  width: 90vw;
+  height: 88vh;
+  grid-template-columns: 0.3fr 1.5fr 1.3fr;
+  margin: 0 auto;
+  background-image: linear-gradient(165deg, #97ceaf, #e9efdf, #ebd895, #d4b452);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-rows: 2fr 4fr 2fr 2.5fr 1fr 1fr;
+}
+
+.grid4 {
+  display: grid;
+  width: 85vw;
+  height: 22vh;
+  grid-template-columns: repeat(3, 0.6fr 1fr);
+  margin: 40px auto;
+}
+
+.grid5 {
+  display: grid;
+  width: 90vw;
+  height: 90vh;
+  grid-template-columns: 1.2fr 1fr 0.05fr;
+  /* gap: 15px; */
+  margin: 0 auto;
+  background-image: linear-gradient(165deg, #97ceaf, #e9efdf, #ebd895, #d4b452);
+}
+
+.grid6 {
+  display: grid;
+  grid-template-rows: 1.2fr 1.8fr 1.5fr 1fr 1fr;
+  gap: 25px;
+}
+
+.grid7 {
+  display: grid;
+  width: 80vw;
+  height: 15vh;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px auto;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+
+.grid8 {
+  display: grid;
+  width: 90vw;
+  height: 90vh;
+  grid-template-columns: 0.25fr 1.3fr 1.2fr 0.15fr;
+  gap: 35px;
+  margin: 0 auto;
+  background-image: linear-gradient(165deg, #d4b452, #e9efdf, #d5e6d8, #97ceaf);
+}
+
+.grid9 {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1.5fr 0.4fr 1fr;
+}
+
+.grid10 {
+  display: grid;
+  width: 80vw;
+  height: 30vh;
+  grid-template-columns: 0.5fr 1fr 0.5fr 1fr;
+  margin: 50px auto;
+  /* gap: 20px; */
+  border: 1px solid black;
+}
+
+.grid11 {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.grid12 {
+  display: grid;
+  grid-template-rows: 1.2fr 1.8fr;
+}
+
+.f,
+.q,
+.r,
+.s,
+.t,
+.u,
+/* .m,
+.n,
+.o,*/
+.p {
+  border: 1px solid black;
+}
+
+.discover,
+.subscription,
+.portfolio,
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button,
+.free_session,
+.discussions,
+.globediv,
+.founderdiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* styling buttons */
+.start {
+  padding: 5px 25px;
+  color: white;
+  background-color: orange;
+  border-radius: 50px;
+  border: none;
+}
+
+.join {
+  padding: 5px 25px;
+  color: white;
+  background-color: rgb(11, 56, 11);
+  border-radius: 50px;
+  border: none;
+}
+
+/* styling images */
+
+.img1 {
+  width: 500px;
+  height: 465px;
+}
+
+.sturdie {
+  width: 100px;
+}
+
+.know,
+.study {
+  width: 120px;
+}
+
+.kickstart {
+  width: 100px;
+}
+
+.landing2 {
+  width: 600px;
+  height: 480px;
+  /* border: 1px solid black; */
+}
+
+.grid7 div > img {
+  width: 180px;
+  height: 60px;
+  /* border: 1px solid black; */
+}
+
+.booksession {
+  height: 470px;
+  width: auto;
+}
+
+/* .grid10 > div img {
+} */
+
+.founder {
+  width: 150px;
+  height: 110px;
+}
+.globe {
+  width: 210px;
+  height: 150px;
+}
+
+/* styling all texts */
+.discover h1 {
+  width: 550px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.grid6 > div h1 {
+  font-size: 38px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  align-self: baseline;
+}
+
+.grid9 > div h1 {
+  font-size: 38px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.learn {
+  margin-top: 40px;
+}
+.learn h3 {
+  font-size: 27px;
+  word-spacing: 7px;
+  width: 55vw;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+/* .grid7 > div {
+  border: 1px solid black;
+} */
+
+.subscription p,
+.portfolio p {
+  width: 550px;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+.sturdiee p,
+.discussions p {
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+.grid10 div > div > p {
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+.founderinfo h6 {
+  font-size: 13px;
+}
+
+.adepoju {
+  color: #3b72b9;
+}
+
+.company {
+  display: inline-block;
+  color: #119046;
+}
+
+.grid11 :first-child,
+.grid12 :first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* h6 {
+  border: 1px solid black;
+  background-color: red;
+} */
