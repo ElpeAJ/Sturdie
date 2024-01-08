@@ -93,7 +93,7 @@ nav ul .logo {
   grid-template-columns: 0.5fr 1fr 0.5fr 1fr;
   margin: 50px auto;
   /* gap: 20px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .grid11 {
@@ -156,7 +156,8 @@ nav ul .logo {
 
 .grid11 :first-child,
 .grid12 :first-child,
-.free_session, .discussions {
+.free_session,
+.discussions {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -226,6 +227,7 @@ nav ul .logo {
 .founder {
   width: 150px;
   height: 110px;
+  align-self: center;
 }
 .globe {
   width: 210px;
@@ -331,4 +333,35 @@ nav ul .logo {
 .line {
   height: 15px;
   border-right: 2px solid white;
+}
+
+@media only screen and (max-width: 967px) {
+  .grid9 > div h1 {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+ 
+  .subscription p,
+  .portfolio p {
+    width: 550px;
+    font-size: 13px;
+    /* word-spacing: 2px; */
+  }
+
+  .sturdiee p,
+.discussions p {
+  font-size: 13px;
+  word-spacing: 2px;
+}
+
+.grid10 div > div > p {
+  font-size: 13px;
+  word-spacing: 2px;
+}
+
+  
 }
